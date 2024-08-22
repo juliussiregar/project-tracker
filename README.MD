@@ -22,6 +22,7 @@ This project is a task assigned by the company APTAVIS.
    ```bash
    git clone https://github.com/username/project-tracker.git
    cd project-tracker
+   - DATABASE_URL="mysql://root:<password>@localhost:3306/project-tracker" for .env
 
 2. **Install Dependencies**
 
@@ -62,6 +63,7 @@ if you want to further develop the project:
 
 - Ensure Prisma is correctly configured in the backend directory if you are using a different database.
 - You can customize Live Server settings as needed, such as changing the port or enabling live reload.
+
 
 ## License
 
